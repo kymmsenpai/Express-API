@@ -2,8 +2,30 @@
 CRUD with Express JS
 ## GET
 ### Get All Data
+#### URL
 http://localhost:3000/api/posts
-<img width="960" alt="image" src="https://github.com/kymmsenpai/Express-API/assets/110247183/c1d8c20d-4e43-45cb-bd2e-6c968abf97a3">
+#### Output
+{
+    "status": true,
+    "message": "List Data Posts",
+    "data": [
+        {
+            "id": 4,
+            "title": "Acome",
+            "content": "Bluetooth Sound"
+        },
+        {
+            "id": 3,
+            "title": "Milku",
+            "content": "Cheap Milk"
+        },
+        {
+            "id": 1,
+            "title": "Fantech",
+            "content": "Headphone"
+        }
+    ]
+}
 ### Get Data by ID
 http://localhost:3000/api/posts/0
 ## POST
