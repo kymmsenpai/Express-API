@@ -5,6 +5,7 @@ CRUD with Express JS
 #### URL
 http://localhost:3000/api/posts
 #### Output
+```json
 {
     "status": true,
     "message": "List Data Posts",
