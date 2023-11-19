@@ -27,14 +27,52 @@ http://localhost:3000/api/posts
         }
     ]
 }
+```
 ### Get Data by ID
+#### URL
 http://localhost:3000/api/posts/0
+#### Output
+```json
+{
+    "status": true,
+    "message": "Detail Data Post",
+    "data": {
+        "id": 0,
+        "title": "Milku",
+        "content": "Cheap of Milk"
+    }
+}
+```
 ## POST
 ### Add Data to Database
+#### URL
 http://localhost:3000/api/posts/store
+#### Output
+```json
+{
+    "status": true,
+    "message": "Insert Data Successfully"
+}
+```
 ## PATCH
 ### Update Data from Database
+#### URL
 http://localhost:3000/api/posts/update/2
+#### Output
+```json
+{
+    "status": true,
+    "message": "Update Data Successfully!"
+}
+```
 ## DELETE
 ### Delete Data from Database
+#### Output
 http://localhost:3000/api/posts/delete/3
+#### Output
+```json
+{
+    "status": true,
+    "message": "Delete Data Successfully!"
+}
+```
